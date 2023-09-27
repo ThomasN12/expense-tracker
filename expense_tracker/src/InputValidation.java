@@ -1,6 +1,9 @@
 import java.util.Arrays;
 import java.util.List;
 
+/**
+ * This class helps validate the transaction amount and category
+ */
 public class InputValidation {
     private static final List<String> VALID_CATEGORIES = Arrays.asList("food", "travel", "bills", "entertainment", "other");
     
